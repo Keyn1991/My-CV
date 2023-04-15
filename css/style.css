@@ -51,3 +51,7 @@ li {
 .left h2 {
     color: coral;
 }
+a {
+    text-decoration: none;
+    color: coral;
+}
