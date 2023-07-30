@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body {
+    font-family: Arial, sans-serif;
     background-color: rgb(253, 254, 255);
     display: flex;
     justify-content: center;
@@ -12,7 +13,7 @@ body {
 .full {
     padding-top: 5px;
     width: 100%;
-    max-width: 800px;
+    max-width: 1080px;
     background-color: rgb(245, 239, 231);
     display: grid;
     grid-template-columns: 2fr 4fr;
@@ -42,6 +43,7 @@ padding-top: 35px;
 .image, .Contact, .Skills, .Language, .Hobbies,
 .Summary, .Experience, .Education, .project {
     margin: 30px;
+
 }
 
 li {
@@ -57,4 +59,29 @@ a {
 }
 h5 {
     color: black;
+}
+
+
+
+
+.motivation-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.motivation-button:hover {
+    background-color: #0056b3;
+}
+.motive-and-git {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 }
